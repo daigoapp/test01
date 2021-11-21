@@ -141,7 +141,7 @@ footer p {
 footer {
   color:grey;
   background-color: #DCD3B2;
-  height:auto;
+  height:100%;
   padding-top: 30px;
   padding-bottom: 20px;
 }
@@ -184,7 +184,7 @@ footer {
   }
 
   .btn-wrapper .btn {
-  width: 100%;
+  width: 80%;
 }
   .main{
     text-align: left;
