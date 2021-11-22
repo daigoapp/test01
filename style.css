@@ -43,6 +43,7 @@ textarea{
   background-size: cover;
   color: white;
   text-align: center;
+  background-image:url("../LINE_ALBUM_211114.jpg");
 }
 
 .main h1 {
@@ -123,8 +124,6 @@ header .container {
   background-color: rgba(255,255,255,0.3);
 }
 
-
-
 .header-right {
   float: right;
   margin-right: 0;
@@ -172,13 +171,13 @@ footer {
   height:1500px;
   background-size: cover;
   color: white;
-  background-image:url("./LINE_ALBUM_211114.jpg");
+  background-image:url("../LINE_ALBUM_211114.jpg");
   text-align:left;
 }
 
 form{
   margin: 50px 30px;
-  border-style: 3px solid:#ff0000;
+  border-style: 3px solid #ff0000;
 }
 
 form p{
