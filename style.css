@@ -154,6 +154,7 @@ footer {
   height:auto;
   padding-top: 30px;
   padding-bottom: 20px;
+  background-size:cover;
 }
 
 .form-wrapper p{
