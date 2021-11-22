@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "monospace";
+}
+
+a {
+  text-decoration: none;
+}
+
+h1{
+  font-weight: bold;
+}
+
+input{
+  border: 3px solid:#ff0000;
+  color: black;
+  border-radius: 10px;
+  font-size:18px;
+}
+
+textarea{
+  border: 3px solid:#ff0000;
+  width: 300px;
+  color: black;
+  border-radius: 10px;
+  font-size:18px;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.main{
+  padding: 180px 0 100px 0;
+  margin:0;
+  height:1500px;
+  background-size: cover;
+  color: white;
+  background-image:url("./LINE_ALBUM_211114.jpg");
+  text-align: center;
+}
+
+.main h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.main p {
+  opacity: 0.7;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.btn-wrapper p {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.login {
+  background-color: #239b76;
+}
+
+.btn{
+   padding: 8px 24px;
+   color:white;
+   display:inline-block;
+   border-radius: 4px;
+   text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #239b76;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+header .container {
+  width: 100%;
+  padding: 0 ;
+  margin: 0 auto;
+}
+
+
+.header-left {
+  float: left;
+  color: white;
+}
+
+.header-left a {
+  line-height: 65px;
+  padding: 0 25px;
+  margin:auto;
+  color: white;
+  display: block;
+  float:left;
+  transition: all 0.5s;
+}
+
+.header-left a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+
+
+.header-right {
+  float: right;
+  margin-right: 0;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+footer p {
+  color: grey;
+  font-size: 12px;
+}
+
+footer {
+  color:grey;
+  background-color: #FCE2C4;
+  height:auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.form-wrapper p{
+  opacity: 0.7;
+}
+
+.form-wrapper{
+  height:600px;
+}
+
+.form-wrapper h1{
+  margin:0;
+  opacity: 0.7;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.form-wrapper{
+  padding: 180px 0 100px 0;
+  margin:0;
+  height:1500px;
+  background-size: cover;
+  color: white;
+  background-image:url("./IMG_8860.jpg");
+  text-align:left;
+}
+
+form{
+  margin: 50px 30px;
+  border-style: 3px solid:#ff0000;
+}
+
+form p{
+  color:white;
+}
+
+.name{
+  display: block;
+}
+
+.last-name{
+  font-size: 12px;
+}
+
+.first-name{
+  font-size: 12px;
+}
+
+.mail-address{
+  display:block;
+}
+
+.birthday{
+  display: block;
+}
+
+.introduction{
+
+}
+
+.submit{
+  background-color:#dee7ec;
+  padding: 8px 24px;
+  margin: 200px 100px;
+  color:grey;
+  display:inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  float:right;
+}
+
+@media all and (max-width: 1000px) {
+  footer {
+    text-align: center;
+  }
+
+  .btn-wrapper .btn {
+  width: 70%;
+}
+}
+
+@media all and (max-width: 750px) {
+  .btn-wrapper .btn {
+  width: 80%;
+}
+
+  .main h1 {
+    opacity: 0.7;
+    font-size: 32px;
+    letter-spacing: 5px;
+  }
+
+  .main p {
+    opacity: 0.7;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .btn-wrapper .btn {
+  width: 100%;
+}
+  .main{
+    text-align: left;
+  }
+
+  .main h1 {
+    opacity: 0.7;
+    font-size: 24px;
+    letter-spacing: 0px;
+  }
+
+  .main p {
+    opacity: 0.7;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+}
