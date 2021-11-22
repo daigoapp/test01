@@ -2,9 +2,10 @@
   box-sizing: border-box;
 }
 
-body {
+html,body {
   margin: 0;
   font-family: "monospace";
+  height:100%;
 }
 
 a {
