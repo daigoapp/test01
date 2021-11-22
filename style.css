@@ -153,7 +153,7 @@ footer p {
 footer {
   color:grey;
   background-color: #FCE2C4;
-  height:300px;
+  height:auto;
   padding-top: 30px;
   padding-bottom: 20px;
   background-size:cover;
